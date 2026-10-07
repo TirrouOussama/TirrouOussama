@@ -1,82 +1,217 @@
-# Tirrou Oussama
+<div align="center">
 
-### Co-Founder & CTO · Systems Architect
+# `TIRROU OUSSAMA`
 
-Building **AWFER** — a mobility infrastructure platform designed from
-the network layer up.
+### `SYSTEMS ARCHITECT` · `CO-FOUNDER & CTO`
 
-[ TCP/IP ] [ TLS/mTLS ] [ Python ] [ Linux ] [ Android ] [ GCP ]
+**Building AWFER — mobility infrastructure from the network layer up.**
 
----
+<br>
 
-## ⚡ AWFER
+[![AWFER](https://img.shields.io/badge/AWFER-MOBILITY_INFRASTRUCTURE-0066FF?style=for-the-badge)](https://awfer.net)
+[![TCP/IP](https://img.shields.io/badge/TCP%2FIP-NETWORKING-0A84FF?style=for-the-badge)](#)
+[![TLS](https://img.shields.io/badge/TLS-mTLS-00A8FF?style=for-the-badge)](#)
+[![Linux](https://img.shields.io/badge/LINUX-SYSTEMS-111827?style=for-the-badge\&logo=linux)](#)
 
-> Not another ride-hailing app.
-> Digital infrastructure for mobility.
-
-I design and build the systems behind AWFER across:
-
-• Raw TCP/TLS networking
-• Distributed service architecture
-• Finite-state machines
-• Shared-memory IPC
-• Linux / systemd infrastructure
-• Android applications
-• GPS & real-time mobility systems
-• Cloud infrastructure
+</div>
 
 ---
 
-## 🧠 Engineering
+<div align="center">
 
-![TCP/IP](...)
-![TLS](...)
-![Python](...)
-![Linux](...)
-![Android](...)
-![GCP](...)
-![SQLite](...)
+### `THE STACK`
+
+`TCP/IP`　·　`TLS/mTLS`　·　`PYTHON`　·　`LINUX`　·　`ANDROID`　·　`GCP`
+
+</div>
+
+<br>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ⚡ AWFER
+
+**Mobility infrastructure.**
+
+A platform designed around real-time communication, driver availability, trip state and distributed services.
+
+**Built with**
+
+* TCP / TLS networking
+* Python 3.13
+* Linux / systemd
+* Android / Kivy
+* Shared-memory IPC
+* Finite-state systems
+* GPS / real-time services
+* GCP infrastructure
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🧠 HOW I BUILD
+
+I prefer systems where the important behavior is explicit.
+
+```text
+PROTOCOL
+   ↓
+CONNECTION
+   ↓
+STATE
+   ↓
+MEMORY
+   ↓
+PROCESS
+   ↓
+SERVICE
+   ↓
+APPLICATION
+```
+
+**Less abstraction.
+More understanding.**
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 📊 GitHub
+<div align="center">
 
-![GitHub Streak](...)
+## `NETWORK / SYSTEMS`
+
+[![TCP](https://img.shields.io/badge/TCP-RAW_SOCKETS-0066FF?style=for-the-badge)](#)
+[![TLS](https://img.shields.io/badge/TLS-MTLS-0066FF?style=for-the-badge)](#)
+[![IPC](https://img.shields.io/badge/IPC-SHARED_MEMORY-0066FF?style=for-the-badge)](#)
+[![FSM](https://img.shields.io/badge/FSM-STATE_MACHINES-0066FF?style=for-the-badge)](#)
+[![Linux](https://img.shields.io/badge/LINUX-SYSTEMD-0066FF?style=for-the-badge\&logo=linux\&logoColor=white)](#)
+
+</div>
+
+<br>
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+### `TCP`
+
+Raw networking
+
+</td>
+
+<td align="center" width="25%">
+
+### `TLS`
+
+mTLS infrastructure
+
+</td>
+
+<td align="center" width="25%">
+
+### `FSM`
+
+Explicit state
+
+</td>
+
+<td align="center" width="25%">
+
+### `IPC`
+
+Shared memory
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🚀 Projects
+<div align="center">
 
-### AWFER
+## `GITHUB`
 
-Mobility infrastructure connecting customers, drivers and the
-underlying transportation network.
+<img src="https://streak-stats.demolab.com?user=TirrouOussama&theme=dark&hide_border=true&background=00000000&ring=0066FF&fire=00A8FF&currStreakLabel=FFFFFF" />
 
-**Architecture:** Python · TCP/TLS · Linux · Android · GCP
+</div>
 
-### AWFER Customer
+<br>
 
-Native Android mobility client built with Python/Kivy.
+<div align="center">
 
-### AWFER Driver
+[![GitHub](https://img.shields.io/badge/GitHub-TirrouOussama-111827?style=for-the-badge\&logo=github)](https://github.com/TirrouOussama)
+[![AWFER](https://img.shields.io/badge/AWFER-awfer.net-0066FF?style=for-the-badge)](https://awfer.net)
 
-Driver-side Android application designed around foreground
-availability and real-time trip infrastructure.
-
----
-
-## 🏗️ Systems Philosophy
-
-I prefer understanding the system underneath the abstraction.
-
-**Protocol → State → Memory → Process → Service → Application**
-
-Rather than building around layers I don't need, I focus on
-deterministic communication, explicit state and controlled resource
-usage.
+</div>
 
 ---
 
-## 📫 Connect
+## `PROJECTS`
 
-[GitHub] · [AWFER] · [LinkedIn]
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🚘 AWFER Customer
+
+Customer-side Android application for the AWFER mobility network.
+
+`Python` · `Kivy` · `Android` · `GPS`
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🚗 AWFER Driver
+
+Driver-side application built around real-time availability and trip infrastructure.
+
+`Python` · `Kivy` · `Android` · `Services`
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🖥️ AWFER System
+
+Distributed backend infrastructure running directly on Linux.
+
+`Python` · `TCP/TLS` · `systemd` · `IPC`
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🔐 Infrastructure
+
+Networking, authentication, state management and service orchestration.
+
+`Linux` · `TLS` · `SQLite` · `GCP`
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+### `BUILDING SYSTEMS, NOT JUST SOFTWARE.`
+
+<br>
+
+**AWFER** · **NETWORKING** · **SYSTEMS** · **MOBILE** · **INFRASTRUCTURE**
+
+<br>
+
+[![Website](https://img.shields.io/badge/awfer.net-0066FF?style=flat-square\&logo=google-chrome\&logoColor=white)](https://awfer.net)
+
+</div>
