@@ -21,13 +21,6 @@
 
 <br>
 
-<sub>
-<span>●</span> TCP/IP　 <span>●</span> TLS　 <span>●</span> mTLS　 <span>●</span> IPC　 <span>●</span> FSM　 <span>●</span> LINUX　 <span>●</span> PYTHON
-</sub>
-
-<br><br>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0066FF,50:7C3AED,100:00D4FF&height=3&section=footer&text=&fontSize=1">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4FF,50:7C3AED,100:0066FF&height=70&section=footer&text=&fontSize=1">
 
