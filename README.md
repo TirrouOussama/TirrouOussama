@@ -21,10 +21,3 @@
 
 
 
-`SYSTEMS`　·　`NETWORKING`　·　`SECURITY`　·　`LINUX`　·　`INFRASTRUCTURE`
-
-<br>
-
-[![Website](https://img.shields.io/badge/awfer.net-0066FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://awfer.net)
-
-</div>
