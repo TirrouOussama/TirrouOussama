@@ -8,8 +8,8 @@
 
 <br>
 
-<!-- Terminal-style Typing Animation -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=500&lines=%3E+SYSTEMS+ARCHITECT;%3E+SOFTWARE+ENGINEER" alt="Typing SVG" />
+
+
 
 <!-- Vivid Tagline -->
 <i><b>Designing systems from the protocol layer to the application layer.</b></i>
