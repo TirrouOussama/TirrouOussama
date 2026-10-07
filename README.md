@@ -2,7 +2,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0066FF,50:7C3AED,100:00D4FF&height=120&section=header&text=&fontSize=1">
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0066FF,50:7C3AED,100:00D4FF&height=180&section=header&text=TIRROU%20OUSSAMA&fontSize=42&fontColor=FFFFFF&animation=fadeIn&fontAlignY=55">
-# `TIRROU OUSSAMA`
 
 ### `SYSTEMS ARCHITECT` · `SOFTWARE ENGINEER`
 
