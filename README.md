@@ -2,20 +2,20 @@
 
 # `TIRROU OUSSAMA`
 
-### `SYSTEMS ARCHITECT` · `CO-FOUNDER & CTO`
+### `SYSTEMS ARCHITECT` · `SOFTWARE ENGINEER`
 
-**I build the systems underneath the software.**
-
-<br>
-
-[![AWFER](https://img.shields.io/badge/AWFER-MOBILITY_INFRASTRUCTURE-0066FF?style=for-the-badge)](https://awfer.net)
-[![SYSTEMS](https://img.shields.io/badge/SYSTEMS-ARCHITECTURE-111827?style=for-the-badge)](#)
-[![NETWORKING](https://img.shields.io/badge/NETWORKING-TCP%2FTLS-0066FF?style=for-the-badge)](#)
-[![LINUX](https://img.shields.io/badge/LINUX-INFRASTRUCTURE-111827?style=for-the-badge\&logo=linux\&logoColor=white)](#)
+**Designing systems from the protocol layer to the application layer.**
 
 <br>
 
-`NETWORKING`　`SYSTEMS`　`INFRASTRUCTURE`　`MOBILE`　`DISTRIBUTED SYSTEMS`
+[![SYSTEMS](https://img.shields.io/badge/SYSTEMS-ARCHITECTURE-0066FF?style=for-the-badge)](#)
+[![NETWORKING](https://img.shields.io/badge/NETWORKING-TCP%2FIP-0066FF?style=for-the-badge)](#)
+[![LINUX](https://img.shields.io/badge/LINUX-SYSTEMS-111827?style=for-the-badge\&logo=linux\&logoColor=white)](#)
+[![PYTHON](https://img.shields.io/badge/PYTHON-3.13-3776AB?style=for-the-badge\&logo=python\&logoColor=white)](#)
+
+<br>
+
+`SYSTEMS`　·　`NETWORKING`　·　`LINUX`　·　`SECURITY`　·　`MOBILE`　·　`INFRASTRUCTURE`
 
 </div>
 
@@ -23,13 +23,43 @@
 
 <div align="center">
 
-## `I DON'T JUST BUILD APPS.`
+# `I BUILD SYSTEMS.`
 
-### `I BUILD THE SYSTEMS THEY RUN ON.`
+### Not just applications.
 
 </div>
 
 <br>
+
+I am interested in the layers most software eventually depends on:
+
+```text
+APPLICATION
+     ↓
+STATE
+     ↓
+SERVICES
+     ↓
+PROCESSES
+     ↓
+MEMORY
+     ↓
+IPC
+     ↓
+NETWORK
+     ↓
+OPERATING SYSTEM
+```
+
+I like understanding what happens between those layers — how data moves, how state changes, how processes communicate, how resources are managed, and how the system behaves when things go wrong.
+
+---
+
+<div align="center">
+
+## `THE WAY I BUILD`
+
+</div>
 
 <table>
 <tr>
@@ -38,12 +68,9 @@
 
 ### `01`
 
-**NETWORK**
+## `UNDERSTAND`
 
-TCP/IP
-Raw sockets
-TLS / mTLS
-Connection lifecycle
+Understand the layer before abstracting it.
 
 </td>
 
@@ -51,13 +78,9 @@ Connection lifecycle
 
 ### `02`
 
-**SYSTEM**
+## `DESIGN`
 
-Linux
-systemd
-Processes
-Shared memory
-Resource control
+Make state, ownership and communication explicit.
 
 </td>
 
@@ -65,243 +88,178 @@ Resource control
 
 ### `03`
 
-**APPLICATION**
+## `BUILD`
 
-Android
-Kivy
-GPS
-Real-time services
-Trip state
+Turn the model into software that actually runs.
 
 </td>
 
 </tr>
 </table>
-
----
-
-<div align="center">
-
-# `AWFER`
-
-### **Mobility infrastructure built from the network layer up.**
-
-</div>
-
-AWFER is the system I am building as **Co-Founder & CTO** — a mobility platform designed around real-time communication, driver availability, trip state and distributed services.
-
-The goal is not simply to build another ride-hailing application.
-
-**The goal is to build the infrastructure underneath mobility.**
 
 <br>
 
+<div align="center">
+
+```text
+LESS MAGIC
+MORE UNDERSTANDING
+
+LESS NOISE
+MORE CONTROL
+
+LESS ABSTRACTION
+MORE INTENT
+```
+
+</div>
+
+---
+
+<div align="center">
+
+# `TECHNICAL TERRITORY`
+
+</div>
+
 <table>
 <tr>
 
 <td width="50%" valign="top">
 
-### `BACKEND`
+## 🌐 `NETWORKING`
 
-```text
-CLIENT
-  │
-  ▼
-TCP / TLS
-  │
-  ▼
-CONNECTION
-  │
-  ▼
-AUTHENTICATION
-  │
-  ▼
-FINITE STATE MACHINE
-  │
-  ▼
-SERVICE
-  │
-  ▼
-SHARED MEMORY
-  │
-  ▼
-SYSTEM
-```
+[![TCP/IP](https://img.shields.io/badge/TCP%2FIP-0066FF?style=flat-square)](#)
+[![TLS](https://img.shields.io/badge/TLS-0066FF?style=flat-square)](#)
+[![mTLS](https://img.shields.io/badge/mTLS-0066FF?style=flat-square)](#)
+[![Sockets](https://img.shields.io/badge/RAW_SOCKETS-0066FF?style=flat-square)](#)
+
+Connection-oriented systems, transport security, socket communication, connection lifecycle and protocol-level behavior.
 
 </td>
 
 <td width="50%" valign="top">
 
-### `MOBILE`
+## 🖥️ `SYSTEMS`
 
-```text
-ANDROID
-   │
-   ├── CUSTOMER
-   │
-   └── DRIVER
-          │
-          ▼
-       GPS
-          │
-          ▼
-   REAL-TIME STATE
-          │
-          ▼
-      AWFER CORE
-```
+[![Linux](https://img.shields.io/badge/LINUX-111827?style=flat-square\&logo=linux\&logoColor=white)](#)
+[![systemd](https://img.shields.io/badge/SYSTEMD-111827?style=flat-square)](#)
+[![IPC](https://img.shields.io/badge/IPC-111827?style=flat-square)](#)
+[![FSM](https://img.shields.io/badge/FSM-111827?style=flat-square)](#)
+
+Processes, service architecture, resource management, state machines, IPC and system-level behavior.
 
 </td>
 
 </tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+## 🔐 `SECURITY`
+
+Authentication, encrypted communication, credentials, trust boundaries, service isolation and security-conscious system design.
+
+</td>
+
+<td width="50%" valign="top">
+
+## 📱 `APPLICATIONS`
+
+Python applications, Android systems, mobile services, GPS-driven applications and real-time client behavior.
+
+</td>
+
+</tr>
+
 </table>
 
 ---
 
 <div align="center">
 
-## `THE AWFER STACK`
-
-[![Python](https://img.shields.io/badge/PYTHON-3.13-3776AB?style=for-the-badge\&logo=python\&logoColor=white)](#)
-[![TCP](https://img.shields.io/badge/TCP-RAW_SOCKETS-0066FF?style=for-the-badge)](#)
-[![TLS](https://img.shields.io/badge/TLS-mTLS-0066FF?style=for-the-badge)](#)
-[![Linux](https://img.shields.io/badge/LINUX-SYSTEMS-111827?style=for-the-badge\&logo=linux\&logoColor=white)](#)
-[![Android](https://img.shields.io/badge/ANDROID-MOBILE-3DDC84?style=for-the-badge\&logo=android\&logoColor=white)](#)
-[![Kivy](https://img.shields.io/badge/KIVY-PYTHON_MOBILE-3776AB?style=for-the-badge)](#)
-[![GCP](https://img.shields.io/badge/GCP-INFRASTRUCTURE-4285F4?style=for-the-badge\&logo=googlecloud\&logoColor=white)](#)
+# `MY MENTAL MODEL`
 
 </div>
+
+When I look at a system, I tend to break it down into a few fundamental questions:
+
+<table>
+<tr>
+
+<td align="center" width="20%">
+
+### `STATE`
+
+**What does it know?**
+
+</td>
+
+<td align="center" width="20%">
+
+### `MEMORY`
+
+**Where does it live?**
+
+</td>
+
+<td align="center" width="20%">
+
+### `PROCESS`
+
+**Who owns it?**
+
+</td>
+
+<td align="center" width="20%">
+
+### `NETWORK`
+
+**How does it move?**
+
+</td>
+
+<td align="center" width="20%">
+
+### `FAILURE`
+
+**What happens when it breaks?**
+
+</td>
+
+</tr>
+</table>
 
 <br>
 
-<table>
-<tr>
-
-<td width="25%" align="center">
-
-### `TCP/IP`
-
-Raw network communication
-
-</td>
-
-<td width="25%" align="center">
-
-### `TLS`
-
-Encrypted transport
-& mutual authentication
-
-</td>
-
-<td width="25%" align="center">
-
-### `FSM`
-
-Explicit system state
-
-</td>
-
-<td width="25%" align="center">
-
-### `IPC`
-
-Shared-memory communication
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="25%" align="center">
-
-### `LINUX`
-
-Processes
-systemd
-resources
-
-</td>
-
-<td width="25%" align="center">
-
-### `ANDROID`
-
-Customer
-Driver
-background services
-
-</td>
-
-<td width="25%" align="center">
-
-### `GPS`
-
-Location
-tracking
-real-time state
-
-</td>
-
-<td width="25%" align="center">
-
-### `GCP`
-
-Cloud infrastructure
-deployment
-operations
-
-</td>
-
-</tr>
-</table>
-
----
-
-<div align="center">
-
-# `HOW I THINK ABOUT SYSTEMS`
-
-</div>
-
-I prefer systems where **important behavior is explicit**.
-
-Not hidden behind layers of abstraction.
-
-Not dependent on frameworks doing things I cannot explain.
-
-Not built around complexity for the sake of complexity.
-
 ```text
-PROTOCOL
-    ↓
-CONNECTION
-    ↓
-STATE
-    ↓
-MEMORY
-    ↓
-PROCESS
-    ↓
-SERVICE
-    ↓
-APPLICATION
+              ┌───────────────┐
+              │     STATE     │
+              └───────┬───────┘
+                      │
+              ┌───────▼───────┐
+              │    PROCESS    │
+              └───────┬───────┘
+                      │
+         ┌────────────┴────────────┐
+         │                         │
+   ┌─────▼─────┐             ┌─────▼─────┐
+   │   MEMORY  │             │   NETWORK │
+   └─────┬─────┘             └─────┬─────┘
+         │                         │
+         └────────────┬────────────┘
+                      │
+               ┌──────▼──────┐
+               │ APPLICATION │
+               └─────────────┘
 ```
 
-### `MY RULE`
-
-> **Understand the machine before abstracting the machine.**
-
-That means working close to the actual system:
-
-`Sockets` · `Processes` · `Memory` · `TLS` · `State` · `Linux` · `Android`
-
 ---
 
 <div align="center">
 
-## `ENGINEERING PRINCIPLES`
+# `ENGINEERING PHILOSOPHY`
 
 </div>
 
@@ -310,38 +268,80 @@ That means working close to the actual system:
 
 <td width="50%" valign="top">
 
-### ⚙️ Explicit Systems
+### `EXPLICIT > IMPLICIT`
 
-I like knowing exactly where state lives, how connections move and which process owns what.
+If something is important, I want to be able to see it.
 
-### 🧠 Understand the Stack
-
-Frameworks are tools — not substitutes for understanding the underlying system.
-
-### ⚡ Real-Time First
-
-Communication, state transitions and resource behavior matter more than decorative architecture diagrams.
+State.
+Ownership.
+Communication.
+Failure paths.
 
 </td>
 
 <td width="50%" valign="top">
 
-### 🔒 Security by Architecture
+### `UNDERSTANDING > CONVENIENCE`
 
-Authentication and encrypted communication belong inside the system design.
+High-level tools are useful.
 
-### 🧩 Small Services
-
-Services should have clear responsibilities and predictable behavior.
-
-### 🛠️ Build What You Need
-
-When existing abstractions get in the way, I am comfortable going lower.
+But knowing what happens underneath them is more useful.
 
 </td>
 
 </tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+### `SIMPLE > ARTIFICIALLY COMPLEX`
+
+A system does not become better because it contains more layers.
+
+Complexity should solve a problem.
+
+</td>
+
+<td width="50%" valign="top">
+
+### `CONTROL > MAGIC`
+
+I prefer predictable systems whose behavior can be traced from input to output.
+
+</td>
+
+</tr>
+
 </table>
+
+---
+
+<div align="center">
+
+# `WHAT I LIKE BUILDING`
+
+<br>
+
+`NETWORK SERVICES`
+
+`STATE MACHINES`
+
+`LINUX SERVICES`
+
+`REAL-TIME SYSTEMS`
+
+`SECURE COMMUNICATION`
+
+`DISTRIBUTED COMPONENTS`
+
+`MOBILE SYSTEMS`
+
+`INFRASTRUCTURE`
+
+`DEVELOPER TOOLING`
+
+</div>
 
 ---
 
@@ -349,7 +349,7 @@ When existing abstractions get in the way, I am comfortable going lower.
 
 # `PROJECTS`
 
-### Systems I am actively building.
+### Things I build are experiments in systems engineering.
 
 </div>
 
@@ -359,33 +359,21 @@ When existing abstractions get in the way, I am comfortable going lower.
 
 <td width="50%" valign="top">
 
-## 🚘 `AWFER CUSTOMER`
+### 🖥️ `SYSTEMS`
 
-Customer-side Android application for the AWFER mobility network.
+Low-level services, networking, process architecture, IPC and Linux infrastructure.
 
-**Core**
-
-`Python` · `Kivy` · `Android` · `GPS`
-
-**Focus**
-
-Real-time location, trip lifecycle, networking and customer interaction.
+`Python` · `Linux` · `TCP/TLS` · `systemd`
 
 </td>
 
 <td width="50%" valign="top">
 
-## 🚗 `AWFER DRIVER`
+### 📱 `MOBILE`
 
-Driver-side Android application built around availability and real-time trip infrastructure.
+Android applications and services designed around real-time system behavior.
 
-**Core**
-
-`Python` · `Kivy` · `Android` · `Services`
-
-**Focus**
-
-Driver availability, GPS, foreground/background services and trip state.
+`Python` · `Kivy` · `Android` · `GPS`
 
 </td>
 
@@ -395,33 +383,21 @@ Driver availability, GPS, foreground/background services and trip state.
 
 <td width="50%" valign="top">
 
-## 🖥️ `AWFER SYSTEM`
+### 🔐 `SECURITY`
 
-The backend infrastructure powering the AWFER network.
+Authentication systems, encrypted communication and security-oriented infrastructure.
 
-**Core**
-
-`Python 3.13` · `TCP/TLS` · `systemd` · `Shared Memory`
-
-**Focus**
-
-Networking, authentication, state machines, service orchestration and IPC.
+`TLS` · `mTLS` · `Authentication` · `Linux`
 
 </td>
 
 <td width="50%" valign="top">
 
-## 🔐 `INFRASTRUCTURE`
+### ☁️ `INFRASTRUCTURE`
 
-The systems surrounding the core platform.
+Systems that have to survive outside the development environment.
 
-**Core**
-
-`Linux` · `TLS` · `SQLite` · `GCP`
-
-**Focus**
-
-Security, authentication, deployment, resource management and operations.
+`GCP` · `Linux` · `Deployment` · `Operations`
 
 </td>
 
@@ -433,39 +409,22 @@ Security, authentication, deployment, resource management and operations.
 
 <div align="center">
 
-# `SYSTEMS OVER SYNTAX`
+# `CURRENT FOCUS`
 
-### I care about what the software **does**.
-
-Not just what language it was written in.
+```text
+SYSTEM ARCHITECTURE
+        │
+        ├── NETWORKING
+        ├── PROCESS DESIGN
+        ├── IPC
+        ├── SECURITY
+        ├── REAL-TIME SYSTEMS
+        └── INFRASTRUCTURE
+```
 
 <br>
 
-```text
-        ┌──────────────────────────┐
-        │        APPLICATION       │
-        └────────────┬─────────────┘
-                     │
-        ┌────────────▼─────────────┐
-        │          STATE           │
-        └────────────┬─────────────┘
-                     │
-        ┌────────────▼─────────────┐
-        │         SERVICES         │
-        └────────────┬─────────────┘
-                     │
-        ┌────────────▼─────────────┐
-        │        PROCESSES         │
-        └────────────┬─────────────┘
-                     │
-        ┌────────────▼─────────────┐
-        │        NETWORK / IPC     │
-        └────────────┬─────────────┘
-                     │
-        ┌────────────▼─────────────┐
-        │           LINUX          │
-        └──────────────────────────┘
-```
+**Going deeper into the systems underneath modern software.**
 
 </div>
 
@@ -479,44 +438,24 @@ Not just what language it was written in.
 
 <br><br>
 
-[![GitHub](https://img.shields.io/badge/GitHub-TirrouOussama-111827?style=for-the-badge\&logo=github)](https://github.com/TirrouOussama)
-[![AWFER](https://img.shields.io/badge/AWFER-awfer.net-0066FF?style=for-the-badge)](https://awfer.net)
-
-</div>
-
----
-
-<div align="center">
-
-## `CURRENTLY BUILDING`
-
-<br>
-
-`AWFER CORE`
-`REAL-TIME MOBILITY INFRASTRUCTURE`
-`ANDROID CLIENTS`
-`NETWORK SERVICES`
-`LINUX SYSTEMS`
-
-<br>
-
-### `FROM SOCKETS TO SYSTEMS.`
-
-</div>
-
----
-
-<div align="center">
-
-# `LET'S BUILD SOMETHING THAT HAS TO WORK.`
-
-<br>
-
-**AWFER** · **SYSTEMS** · **NETWORKING** · **INFRASTRUCTURE** · **MOBILE**
-
-<br>
-
-[![Website](https://img.shields.io/badge/awfer.net-0066FF?style=for-the-badge\&logo=google-chrome\&logoColor=white)](https://awfer.net)
 [![GitHub](https://img.shields.io/badge/GitHub-TirrouOussama-111827?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/TirrouOussama)
+
+</div>
+
+---
+
+<div align="center">
+
+# `BUILD THE SYSTEM.`
+
+### Understand the protocol.
+
+### Understand the state.
+
+### Understand the machine.
+
+<br>
+
+`SYSTEMS` · `NETWORKING` · `SECURITY` · `LINUX` · `INFRASTRUCTURE`
 
 </div>
