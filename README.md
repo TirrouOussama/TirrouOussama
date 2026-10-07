@@ -40,3 +40,10 @@
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TirrouOussama&layout=compact&hide_border=true&bg_color=00000000&title_color=0066FF&text_color=888888&langs_count=8" />
 
 </div>
+<div align="center">
+
+### `LANGUAGES`
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TirrouOussama&layout=compact&hide_border=true&bg_color=00000000&title_color=0066FF&text_color=888888&langs_count=8" />
+
+</div>
