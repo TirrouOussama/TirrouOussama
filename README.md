@@ -26,7 +26,7 @@
 
 <!-- Live Status Badges -->
 <img src="https://img.shields.io/badge/STATUS-ACTIVELY_CODING-00D4FF?style=flat-square&labelColor=0d1117">
-<img src="https://img.shields.io/badge/UPTIME-24%2F7-00FF00?style=flat-square&labelColor=0d1117">
+
 
 <br>
 
